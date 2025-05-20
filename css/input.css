@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@layer components {
+  .hover-links {
+    @apply py-4 hover:border-b-4;
+  }
+  .dropdown {
+    @apply after:relative flex justify-center items-center after:w-0 after:aspect-square after:right-0 after:mt-1 after:border-l-5 after:border-r-5 after:border-t-6 after:border-l-transparent after:border-r-transparent after:border-t-black after:mx-1  
+  }
+ /* .owl-carousel.owl-loaded{
+    display:  grid !important;
+  }
+  .owl-nav{
+    background-color: black ;
+    color: white;
+    order: -1;
+    width: 33%;
+  }
+
+.owl-item{
+  width: 200px !important;
+} */
+
+}
+@theme{
+  --breakpoint-laptop: 1200px;
+  --color-main-color: #00BCB3;
+  --color-primary-color :#848484;
+  --font-lato:"Lato", sans-serif;
+}
