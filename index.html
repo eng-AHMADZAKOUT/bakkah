@@ -67,8 +67,31 @@
             <a class="rounded-2xl p-4 shadow-xl cursor-pointer">العربية</a>
           </div>
           <div class="laptop:hidden">
-            <a href="" class=""><i class="fa-solid fa-bars"></i></a>
+           
+             <i class="fa-solid fa-bars cursor-pointer"  onclick="document.getElementById('sidebar').classList.toggle('hidden')"></i>
           </div>
+          </div>
+        </div>
+        <div id="sidebar" class=" hidden w-70 h-screen absolute top-0 left-0 bg-white">
+          <nav>
+            <ul class="">
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Home</a></li>
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Services </a></li>
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Products</a></li>
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Clients</a></li>
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Careers</a></li>
+              <li class=" border-b border-[#eee]  ">
+                <a href="" class="block w-full p-4 hover:bg-gray-300 dropdown after:top-3  ">Knowledge Hub</a>
+                <div class="px-6">
+                  <a href="" class="block p-4 hover:bg-gray-300 border border-[#eee]">Articles</a>
+                  <a href="" class="block p-4 hover:bg-gray-300 border border-[#eee]">Webinars</a
+                  >
+                  <a href="" class="block p-4 hover:bg-gray-300 border border-[#eee]">Reports</a>
+                </div>
+              </li>
+              <li class="p-4 border-b border-[#eee] hover:bg-gray-300 "><a href="" class="block">Contact Us</a></li>
+            </ul>
+          </nav>
         </div>
       </nav>
     </header>
