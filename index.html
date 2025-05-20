@@ -39,11 +39,11 @@
             <li class="group">
               <a class="py-4 dropdown" href=""> Knowledge Hub </a>
               <div
-                class="hidden border-t-2 w-72 shadow-2xs bg-white group-hover:block absolute"
+                class="hidden border-t-4 border-main-color w-72 shadow-2xs bg-white group-hover:block absolute"
               >
-                <a class="block p-4" href="">Articles</a>
-                <a class="block p-4" href="">Webinars</a>
-                <a class="block p-4" href="">Reports</a>
+                <a class="block p-4 hover:bg-[#eee]" href="">Articles</a>
+                <a class="block p-4 hover:bg-[#eee]" href="">Webinars</a>
+                <a class="block p-4 hover:bg-[#eee]" href="">Reports</a>
               </div>
             </li>
 
@@ -400,7 +400,7 @@
             class="w-1/2 mx-auto mt-10 flex flex-col md:flex-row gap-4 items-center justify-center"
           >
             <div
-              class="flex  justify-center items-center border border-[#eeee] w-full md:w-1/3"
+              class="flex justify-center items-center border border-[#eeee] w-full md:w-1/3"
             >
               <img
                 src="imgs/2021-08-12-10-04-46_microsoftteams-image (2).png"
@@ -421,27 +421,99 @@
         </div>
       </section>
       <section class="bg-[#ecf5f7] mb-24">
-        <div class="mx-auto w-11/12 md:py-20 md:px-36 py-10 ">
-          <h2 class="text-center">Subscribe to get information, latests news and other interesting offers about us</h2>
+        <div class="mx-auto w-11/12 md:py-20 md:px-36 py-10">
+          <h2 class="text-center">
+            Subscribe to get information, latests news and other interesting
+            offers about us
+          </h2>
           <div class="md:flex md:justify-between md:items-center mt-10">
             <div class="relative w-full md:w-11/12">
-              
-              <input type="email" class="bg-white  w-full px-8 py-4 focus-visible:outline-0" 
-              
-              placeholder="Email Address" name="" id="">
-              <i class="fa-solid fa-envelope absolute left-[7px] top-[17px] z-10 text-xl text-main-color"></i>
+              <input
+                type="email"
+                class="bg-white w-full px-8 py-4 focus-visible:outline-0"
+                placeholder="Email Address"
+                name=""
+                id=""
+              />
+              <i
+                class="fa-solid fa-envelope absolute left-[7px] top-[17px] z-10 text-xl text-main-color"
+              ></i>
             </div>
-            <div class="w-full md:w-[20%] bg-main-color py-4  flex justify-center items-center text-white">
-              
-              <a href="">Subscribe 
-                <i class=" ml-4 fa-solid fa-paper-plane"></i>
+            <div
+              class="w-full md:w-[20%] bg-main-color py-4 flex justify-center items-center text-white"
+            >
+              <a href=""
+                >Subscribe
+                <i class="ml-4 fa-solid fa-paper-plane"></i>
               </a>
-              
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="w-11/12 mx-auto">
+      <div class="grid gap-10 grid-cols-1 md:grid-cols-4 py-10 border-b">
+        <div>
+          <img src="imgs/logo.svg" class="w-20" alt="" />
+          <p class="text-primary-color mt-4">
+            Bakkah Consulting is a leading Saudi Consulting Company with over 10
+            years of experience.
+          </p>
+        </div>
+        <div>
+          <h3 class="mb-8 text-xl">Community</h3>
+          <ul class="text-primary-color">
+            <li class="mb-4"><a href="">Home </a></li>
+            <li class="mb-4"><a href="">About</a></li>
+            <li class="mb-4"><a href="">Contact</a></li>
+            <li class="mb-4"><a href="">Cookies Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-8 text-xl">Sitemap</h3>
+          <ul class="text-primary-color">
+            <li class="mb-4"><a href="">Our Services</a></li>
+            <li class="mb-4"><a href="">Articles</a></li>
+            <li class="mb-4"><a href="">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-8 text-xl">Get in Touch</h3>
+          <p class="text-primary-color">
+            7344 Othman Bin Affan – Al Narjis Dist. <br />
+            Unit No 76 <br />
+            P.O. Box 86593 <br />
+            Riyadh 13327, Saudi Arabia <br />
+            Tel.: +966 (920003928) <br />
+            Fax: +966 (112101141) <br />
+            Email: contactus@bakkah.net.sa
+          </p>
+        </div>
+      </div>
+      <div class="p-8 flex justify-between items-center">
+        <p>© 2025 Bakkah Management Consulting All Rights Reserved</p>
+        <div class="flex gap-4">
+          <div>
+            <div
+              class="bg-black w-12 h-12 flex justify-center items-center rounded-full"
+            >
+              <a href="">
+                <i class="fa-brands fa-linkedin text-white text-2xl"></i>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div
+              class="bg-black w-12 h-12 flex justify-center items-center rounded-full"
+            >
+              <a href="">
+                <i class="fa-brands fa-twitter text-white text-2xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
